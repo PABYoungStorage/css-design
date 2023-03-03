@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: violet;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hm{
+    opacity: 0;
+    transition: 0.5s;
+}
+#service{
+    height: 100vh;
+    width: 100%;
+    background-color: aquamarine;
+    color: black;
+}
+#sti{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    color: black;
+}
+#serv{
+    transition: 0.5s;
+    opacity: 0;
+}
